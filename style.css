@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(clock-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#watch-container {
+    text-align: center;
+    margin-top: 100px;
+}
+#stop-watch-container {
+    padding: 40px 80px;
+    border: black solid;
+    border-radius: 20px;
+    width:fit-content;
+    background-color: white;
+}
+#stopWatch {
+    font-size: 50px;
+    font-weight: bold;
+}
+#watch {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+button {
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#start {
+    background-color: rgb(69, 235, 69);
+}
+#start:hover{
+    background-color: rgb(77, 190, 77);
+}
+#start:active{
+    background-color: rgb(42, 126, 42);
+}
+#stop {
+    background-color: rgb(243, 46, 46);
+}
+#stop:hover{
+    background-color: rgb(196, 45, 45);
+}
+#stop:active{
+    background-color: rgb(156, 8, 8);
+}
+#reset {
+    background-color: rgb(54, 171, 218);
+}
+#reset:hover{
+    background-color: rgb(38, 121, 153);
+}
+#reset:active{
+    background-color: rgb(28, 93, 119);
+}
