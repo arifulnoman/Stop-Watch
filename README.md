@@ -32,4 +32,4 @@ Here's a screenshot of the stopwatch in action:
 
 ## Live Demo
 
-You can view the live demo of the stopwatch [here](https://your-live-demo-link.com](https://stop-watch-ewu.netlify.app/)https://stop-watch-ewu.netlify.app/).
+You can view the live demo of the stopwatch [here](https://stop-watch-ewu.netlify.app/).
